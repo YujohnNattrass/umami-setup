@@ -1,0 +1,20 @@
+{
+  "name": "my_ecs_construct",
+  "version": "0.1.0",
+  "bin": {
+    "my_ecs_construct": "bin/my_ecs_construct.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assertions": "1.132.0",
+    "aws-cdk": "1.132.0",
+    "jest": "^26.4.2"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.132.0"
+  }
+}
